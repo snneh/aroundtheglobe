@@ -145,11 +145,6 @@ button.read__more:hover {
   color: #333333;
 }
 
-button.our__blogs:hover {
-  background-color: #f3f4f6;
-  color: #333333;
-}
-
 .container__right {
   justify-content: flex-end;
 }
@@ -162,6 +157,12 @@ form {
   background-color: #ffffff33;
   color: #f3f4f6;
   font-size: 1.5rem;
+  opacity: 0.3;
+}
+
+form:hover{
+  opacity: 1;
+  color: #f3f4f6;
 }
 
 form h4 {
